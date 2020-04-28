@@ -11,6 +11,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="apple-touch-icon" sizes="180x180" href="content/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="content/favicon-32x32.png">
@@ -21,25 +22,25 @@
     <body>
 
         <!-- If you're reading this, hello! -->
-        <div class="container">
+        <div class="container" id="navContainer">
             <h2 id="colorTag">crimson | #941C2F</h2>
             <nav>
                 <ul>
                     <li><a href="#" onclick="getQuote()">Load quote</a></li><span id="divider">|</span>
                     <li><a href="about.html">About</a></li>
-                    <i class="fa fa-download" aria-hidden="true"></i>
                 </ul>
             </nav>
         </div>
-        <div class="col-sm-6 offset-sm-3" id="quoteContainer">
-
-            <!-- Click here on this mysterious image to generate the quote!-->
-            <img src="https://img.icons8.com/metro/26/000000/quote.png" onclick="getQuote()" id="quotePng"/>            
-            <p id="quoteHolder">
-                <span id="quote">Loading quote...
-                </span><br/>
-                <span id="author"> Lorem ipsum</span>
-            </p>
+        <div class="container" id="mainContainer">
+            <div class="col-sm-6 offset-sm-3" id="quoteContainer">
+                <!-- Click here on this mysterious image to generate the quote!-->
+                <img src="https://img.icons8.com/metro/26/000000/quote.png" onclick="getQuote()" id="quotePng"/>            
+                <p id="quoteHolder">
+                    <span id="quote">Loading quote...
+                    </span><br/>
+                    <span id="author"> Lorem ipsum</span>
+                </p>
+            </div>
         </div>
 
         <footer id="siteFooter">
