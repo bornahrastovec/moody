@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+
+body {
+    background-color: #941C2F;
+    font-family: 'Montserrat', sans-serif;
+}
+#quote {
+    font-size: 1.75em;
+    text-shadow: 5px 5px 3px black;
+}
+#quote:hover{
+}
+#author {
+    color: #03191E;
+    font-weight: 250px;
+    font-size: 25px;
+    letter-spacing: 25px;
+    margin-top: 50px;
+    text-transform: uppercase;
+}
+#quoteContainer{
+    margin-top: 20rem;
+    color: white;
+    text-align: center;
+    transition: ease all 150ms;
+}
+#quoteContainer:hover {
+    font-size: 1.85em;
+}
+
+#siteFooter {
+    position:absolute;
+    color: white;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
+
+
+#about {
+    text-align: right;
+    margin: 20px;
+    font-size: 15px;
+}
+
+a {
+    color: #EEE5E9;
+}
+a:hover {
+    color: #EEE5E9;
+    text-decoration: none;
+}
+
+#socialLink {
+    letter-spacing: 3px;
+}
+nav {
+    text-align: right;
+    text-transform: uppercase;
+    text-shadow: 5px 1px 3px black;
+}
+nav li {
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+#colorTag {
+    float: left;
+    color: white;
+    text-shadow: 5px 1px 3px black;
+}
+
+#divider {
+    margin-left: 15px;
+}
+.container {
+    margin-top: 25px;
+}
+
+#quotePng {
+      float: right;
+}
