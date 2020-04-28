@@ -63,11 +63,17 @@ nav {
     text-align: right;
     text-transform: uppercase;
     text-shadow: 5px 1px 3px black;
+
 }
 nav li {
     display: inline-block;
     margin-left: 15px;
     margin-top: 10px;
+    border: solid 2px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: white
 }
 #colorTag {
     float: left;
@@ -77,6 +83,7 @@ nav li {
 
 #divider {
     margin-left: 15px;
+    color: white;
 }
 .container {
     margin-top: 25px;
