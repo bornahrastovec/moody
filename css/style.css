@@ -23,7 +23,7 @@ body {
     margin-top: 20rem;
     color: white;
     text-align: center;
-    transition: ease all 150ms;
+    transition: ease-out 150ms;
 }
 #quoteContainer:hover {
     font-size: 1.85em;
@@ -35,8 +35,12 @@ body {
     text-align: center;
     bottom: 0;
     width: 100%;
+    transition: linear 150ms;
 }
+#siteFooter:hover {
+    margin-bottom: 5px;
 
+}
 
 #about {
     text-align: right;
